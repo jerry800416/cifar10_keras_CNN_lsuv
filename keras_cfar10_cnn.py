@@ -64,8 +64,9 @@ model.add(keras.layers.Conv2D(128, padding='same',activation=tf.nn.relu, kernel_
 model.add(keras.layers.Conv2D(128, padding='same',activation=tf.nn.relu, kernel_size=(3, 3), input_shape=x_train.shape[1:]))  
 model.add(keras.layers.Conv2D(128, padding='same',activation=tf.nn.relu, kernel_size=(3, 3), input_shape=x_train.shape[1:]))  
 model.add(keras.layers.Conv2D(128, padding='same',activation=tf.nn.relu, kernel_size=(3, 3), input_shape=x_train.shape[1:]))  
-model.add(keras.layers.MaxPool2D(pool_size=(2, 2)))   #最大池化
-model.add(keras.layers.Dropout(0.25))                 #防止過擬合
+model.add(keras.layers.Activation('relu'))
+model.add(keras.layers.GlobalMaxPooling2D())
+model.add(keras.layers.Dropout(0.25))
 model.add(keras.layers.Flatten())       #用於卷積層連接全連接層
 model.add(keras.layers.Dense(500, activation=tf.nn.relu))  #普通的全連接層
 model.add(keras.layers.Dropout(0.25))
