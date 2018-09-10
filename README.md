@@ -1,4 +1,4 @@
-<h1>使用KerasCNN實做CIFAR10(LSUV)</h1><br>
+<h1>使用KerasCNN實做CIFAR10(LSUV)準確率:90%</h1><br>
 <br>
 <br>
 參考網站:http://nooverfit.com/wp/%E7%94%A8keras%E8%AE%AD%E7%BB%83%E4%B8%80%E4%B8%AA%E5%87%86%E7%A1%AE%E7%8E%8790%E7%9A%84cifar-10%E9%A2%84%E6%B5%8B%E6%A8%A1%E5%9E%8B/
@@ -30,4 +30,5 @@ loss: 0.1488 - acc: 0.9479 - val_loss: 0.4511 - val_acc: 0.8885<br>
 微調算法<br>
 1.最後一層更改為globalmaxpolling<br>
 <br>
-約epoch187層時val_acc可以到達90%<br>
+epoch187層時val_acc可以到達90%<br>
+loss: 0.1479 - acc: 0.9493 - val_loss: 0.3419 - val_acc: 0.9038
