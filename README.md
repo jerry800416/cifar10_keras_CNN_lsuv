@@ -14,21 +14,19 @@
 4.測試：python3 predict.py<br>
 <br>
 <br>
-<h3>基本參數以及紀錄：</h3><br>
-
+<h3>基本參數以及紀錄：</h3>
+<br>
 1.約15層卷積<br>
 2.learning rate：0.0001<br>
 3.batch size：32<br>
 4.epochs：200<br>
 4.訓練花費時間：約90分鐘<br>
 5.使用設備：gtx1070m<br>
-<br>
-<br>
 loss: 0.1488 - acc: 0.9479 - val_loss: 0.4511 - val_acc: 0.8885<br>
+<br>
 <br>
 9/10<br>
 微調算法<br>
 1.最後一層更改為globalmaxpolling<br>
-<br>
 epoch187層時val_acc可以到達90%<br>
-loss: 0.1479 - acc: 0.9493 - val_loss: 0.3419 - val_acc: 0.9038
+loss: 0.1479 - acc: 0.9493 - val_loss: 0.3419 - val_acc: 0.9038<br>
