@@ -1,4 +1,4 @@
-<h1>使用KerasCNN實做CIFAR10(LSUV)準確率:90%</h1><br>
+<h1>使用KerasCNN實做CIFAR10(LSUV)準確率:91%</h1><br>
 <br>
 <br>
 參考網站:http://nooverfit.com/wp/%E7%94%A8keras%E8%AE%AD%E7%BB%83%E4%B8%80%E4%B8%AA%E5%87%86%E7%A1%AE%E7%8E%8790%E7%9A%84cifar-10%E9%A2%84%E6%B5%8B%E6%A8%A1%E5%9E%8B/
