@@ -30,3 +30,10 @@ loss: 0.1488 - acc: 0.9479 - val_loss: 0.4511 - val_acc: 0.8885<br>
 1.最後一層更改為globalmaxpolling<br>
 epoch187層時val_acc可以到達90%<br>
 loss: 0.1479 - acc: 0.9493 - val_loss: 0.3419 - val_acc: 0.9038<br>
+<br>
+9/10<br>
+微調算法<br>
+1.活化函數改為leaky_relu<br>
+2.訓練時間延到為2hr左右<br>
+epoch190層時val_acc可以到達91%<br>
+loss: 0.1448 - acc: 0.9494 - val_loss: 0.3092 - val_acc: 0.9081<br>
